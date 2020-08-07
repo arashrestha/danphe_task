@@ -1,0 +1,27 @@
+body{
+    margin :0;
+}
+
+.full-container .image-container{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.full-container .image-container .box{
+    height: 300px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+    background-color: rgb(60,60,59);
+}
+
+@media screen and (max-width:599px){
+   .full-container .image-container .box
+   {
+    width:100% 
+    } 
+}
